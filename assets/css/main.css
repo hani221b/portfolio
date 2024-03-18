@@ -947,12 +947,14 @@ input[type="button"]:focus {
   top: 35px;
   left: 45%;
   width: 1036px;
-  height: 659px;
+  height: 100%;
   margin: 0;
-  background-image: url("../img/app-design-visual.png");
+  background-image: url("../img/syrian.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  /* box-shadow: 0px 0px 21px 8px #2046F2; */
+  /* border-radius:7px ; */
 }
 @media (max-width: 991px) {
   .app-design__content h2 {
@@ -1136,13 +1138,15 @@ input[type="button"]:focus {
 }
 .work__visual {
   position: relative;
-  width: 52.5%;
+  width: 70.5%;
   box-shadow: 5px 8px 30px 1px rgba(0, 0, 0, 0.21);
   z-index: 2;
 }
-.work__visual img {
+.work__visual video {
   display: block;
   width: 100%;
+  border-radius: 7px;
+  box-shadow: 0px 0px 21px 8px #2046F2;
 }
 .work__navigation {
   display: -webkit-box;
