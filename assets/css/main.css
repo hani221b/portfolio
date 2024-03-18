@@ -178,7 +178,7 @@ th {
   padding: 0;
 }
 body {
-  background-color: #fff;
+  background-color: #00021D;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Merriweather Sans", sans-serif;
@@ -322,7 +322,7 @@ textarea {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #00021D;
   z-index: 100;
   -webkit-transition: opacity 0.4s 0.4s;
   transition: opacity 0.4s 0.4s;
@@ -361,7 +361,7 @@ textarea {
   color: #585858;
   font-size: 32px;
   font-weight: 800;
-  background-color: #fff;
+  background-color: #00021D;
 }
 .logo {
   color: #585858;
@@ -424,7 +424,7 @@ input[type="button"]:focus {
 }
 .blurb--framed {
   padding: 15px 0;
-  background-color: #fafafa;
+  background-color: #00021D;
 }
 .blurb__heading {
   margin: 0 0 15px 0;
@@ -595,7 +595,7 @@ input[type="button"]:focus {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #00021D;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: visibility 0s 0.4s, opacity 0.4s;
@@ -747,7 +747,7 @@ input[type="button"]:focus {
   justify-content: center;
 }
 .introduction::before {
-  content: "JM";
+  content: "Abdulfattah";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -755,7 +755,7 @@ input[type="button"]:focus {
   transform: translate(-50%, -50%);
   font-size: 40vw;
   font-weight: 800;
-  opacity: 0.05;
+  opacity: 0.15;
 }
 .introduction__content {
   color: #9e9e9e;
@@ -774,7 +774,7 @@ input[type="button"]:focus {
   -webkit-transform: matrix(1.0110731102, 0, 0, 1.0110731102, 0, 0);
   transform: matrix(1.0110731102, 0, 0, 1.0110731102, 0, 0);
   margin: 10px 0;
-  color: #fff;
+  color: #fafafa;
   font-size: 16vw;
   text-align: center;
   text-transform: uppercase;
@@ -799,13 +799,27 @@ input[type="button"]:focus {
 }
 @media (min-width: 1440px) {
   .introduction::before {
-    font-size: 576px;
+    font-size: 234px;
   }
   .introduction__content-el--description {
     font-size: 230px;
   }
 }
+@media (min-width: 980px) {
+  .introduction::before {
+    font-size: 190px;
+  }
+}
+@media (min-width: 290px) {
+  .introduction::before {
+    font-size: 150px;
+  }
+}
 @media (max-height: 540px) {
+  .introduction::before {
+    font-size: 234px;
+  }
+
   .introduction__arrow {
     -webkit-animation: none;
     animation: none;
@@ -815,7 +829,7 @@ input[type="button"]:focus {
   position: relative;
   width: 100%;
   height: 625px;
-  background-color: #fafafa;
+  background-color: #00021D;
 }
 .about__wrapper {
   display: -webkit-box;
@@ -843,7 +857,7 @@ input[type="button"]:focus {
 .about__visual {
   position: absolute;
   left: 45px;
-  bottom: 0;
+  bottom: 45px;
   z-index: 2;
 }
 .about__content {
@@ -987,7 +1001,7 @@ input[type="button"]:focus {
   position: relative;
   width: 100%;
   padding: 200px 0;
-  background-color: #fafafa;
+  background-color: #00021D;
   overflow: hidden;
 }
 .web-design__wrapper {
@@ -1068,7 +1082,7 @@ input[type="button"]:focus {
   position: relative;
   width: 100%;
   padding: 120px 0 60px 0;
-  background-color: #fafafa;
+  background-color: #00021D;
 }
 .work__list {
   position: relative;
@@ -1292,7 +1306,7 @@ input[type="button"]:focus {
 .contact {
   position: relative;
   padding: 60px 0;
-  background-color: #fafafa;
+  background-color: #00021D;
 }
 .contact__wrapper {
   display: -webkit-box;
@@ -1343,7 +1357,7 @@ input[type="button"]:focus {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 15px 0;
-  background-color: #fafafa;
+  background-color: #00021D;
   z-index: 1;
 }
 .contact__form-el {
