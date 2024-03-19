@@ -793,7 +793,7 @@ input[type="button"]:focus {
   -webkit-transform: translate(-12px, 0px);
   transform: translate(-12px, 0px);
   width: 24px;
-  fill: #2046f2;
+  fill: #fff;
   -webkit-animation: scrollDown 1.6s infinite;
   animation: scrollDown 1.6s infinite;
 }
@@ -949,7 +949,21 @@ input[type="button"]:focus {
   width: 1036px;
   height: 100%;
   margin: 0;
-  background-image: url("../img/syrian.png");
+  background-image: url("../img/grace.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 0px 21px 8px #2046F2; */
+  /* border-radius:7px ; */
+}
+.nebras-design__visual {
+  position: absolute;
+  top: 35px;
+  left: 45%;
+  width: 1036px;
+  height: 100%;
+  margin: 0;
+  background-image: url("../img/nebras.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -961,6 +975,10 @@ input[type="button"]:focus {
     font-size: 48px;
   }
   .app-design__visual {
+    width: 922px;
+    height: 586px;
+  }
+  .nebras-design__visual {
     width: 922px;
     height: 586px;
   }
@@ -983,6 +1001,15 @@ input[type="button"]:focus {
     margin: 0 auto 20px auto;
   }
   .app-design__visual {
+    top: auto;
+    left: 50%;
+    bottom: -175px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 679px;
+    height: 439px;
+  }
+  .nebras-design__visual {
     top: auto;
     left: 50%;
     bottom: -175px;
@@ -1016,7 +1043,7 @@ input[type="button"]:focus {
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-.web-design__visual {
+.gmtcc-design__visual {
   position: absolute;
   top: 50%;
   right: 52%;
@@ -1025,7 +1052,21 @@ input[type="button"]:focus {
   width: 828px;
   height: 581px;
   margin: 0;
-  background-image: url("../img/web-design-visual.png");
+  background-image: url("../img/gmtcc.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.syrian-design__visual {
+  position: absolute;
+  top: 50%;
+  right: 52%;
+  -webkit-transform: translateY(-45%);
+  transform: translateY(-45%);
+  width: 828px;
+  height: 581px;
+  margin: 0;
+  background-image: url("../img/syrian.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1034,7 +1075,12 @@ input[type="button"]:focus {
   .web-design__content h2 {
     font-size: 48px;
   }
-  .web-design__visual {
+  .gmtcc-design__visual {
+    right: 45%;
+    width: 741px;
+    height: 520px;
+  }
+  .syrian-design__visual {
     right: 45%;
     width: 741px;
     height: 520px;
@@ -1060,7 +1106,17 @@ input[type="button"]:focus {
   .web-design__content h2 br {
     display: none;
   }
-  .web-design__visual {
+  .gmtcc-design__visual {
+    top: auto;
+    right: auto;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 523px;
+    height: 376px;
+  }
+  .syrian-design__visual {
     top: auto;
     right: auto;
     left: 50%;
@@ -1075,7 +1131,11 @@ input[type="button"]:focus {
   .web-design {
     height: 425px;
   }
-  .web-design__visual {
+  .gmtcc-design__visual {
+    width: 392px;
+    height: 275px;
+  }
+  .syrian-design__visual {
     width: 392px;
     height: 275px;
   }
