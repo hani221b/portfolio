@@ -7,6 +7,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 article,
 aside,
@@ -1015,7 +1016,7 @@ input[type="button"]:focus {
   }
   .nebras-design__visual {
     top: auto;
-    left: 50%;
+    left: 0;
     bottom: -175px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1049,7 +1050,7 @@ input[type="button"]:focus {
 }
 .gmtcc-design__visual {
   position: absolute;
-  top: 0;
+  top: 0%;
   right: 52%;
   -webkit-transform: translateY(-45%);
   transform: translateY(-45%);
@@ -1113,7 +1114,8 @@ input[type="button"]:focus {
   .gmtcc-design__visual {
     top: auto;
     right: auto;
-    left: 50%;
+    margin: auto;
+    left: 0;
     bottom: 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1123,7 +1125,7 @@ input[type="button"]:focus {
   .syrian-design__visual {
     top: auto;
     right: auto;
-    left: 50%;
+    left: 0;
     bottom: 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
