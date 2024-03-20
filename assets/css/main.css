@@ -975,6 +975,20 @@ input[type="button"]:focus {
   /* box-shadow: 0px 0px 21px 8px #2046F2; */
   /* border-radius:7px ; */
 }
+.minaret-design__visual {
+  position: absolute;
+  top: 35px;
+  left: 45%;
+  width: 1036px;
+  height: 100%;
+  margin: 0;
+  background-image: url("../img/minaret.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 0px 21px 8px #2046F2; */
+  /* border-radius:7px ; */
+}
 @media (max-width: 991px) {
   .app-design__content h2 {
     font-size: 48px;
@@ -984,6 +998,10 @@ input[type="button"]:focus {
     height: 586px;
   }
   .nebras-design__visual {
+    width: 922px;
+    height: 586px;
+  }
+  .minaret-design__visual {
     width: 922px;
     height: 586px;
   }
@@ -1015,6 +1033,15 @@ input[type="button"]:focus {
     height: 439px;
   }
   .nebras-design__visual {
+    top: auto;
+    left: 0;
+    bottom: -175px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 679px;
+    height: 439px;
+  }
+  .minaret-design__visual {
     top: auto;
     left: 0;
     bottom: -175px;
