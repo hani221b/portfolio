@@ -427,6 +427,12 @@ input[type="button"]:focus {
   padding: 15px 0;
   background-color: #00021D;
 }
+
+.blurb--framed-bio {
+  padding: 15px 0;
+  background-color: #00021D;
+  margin-left: 70%;
+}
 .blurb__heading {
   margin: 0 0 15px 0;
   color: #adadad;
@@ -916,6 +922,9 @@ input[type="button"]:focus {
   .about__content-signature {
     position: static;
     font-size: 24px;
+  }
+  .blurb--framed-bio {
+    margin-left: 0;
   }
 }
 @media (max-width: 767px) {
@@ -1621,4 +1630,12 @@ input[type="button"]:focus {
     -ms-flex-order: 2;
     order: 2;
   }
+}
+
+.bio {
+  margin: 0 0 15px 0;
+  color: #adadad;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
 }
