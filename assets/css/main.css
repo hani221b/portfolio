@@ -1098,6 +1098,20 @@ input[type="button"]:focus {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.proshop-design__visual {
+  position: absolute;
+  top: 0%;
+  right: 52%;
+  -webkit-transform: translateY(-45%);
+  transform: translateY(-45%);
+  width: 828px;
+  height: 581px;
+  margin: 0;
+  background-image: url("../img/proshop.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 .syrian-design__visual {
   position: absolute;
   top: 0;
@@ -1117,6 +1131,11 @@ input[type="button"]:focus {
     font-size: 48px;
   }
   .gmtcc-design__visual {
+    right: 45%;
+    width: 741px;
+    height: 520px;
+  }
+  .proshop-design__visual {
     right: 45%;
     width: 741px;
     height: 520px;
@@ -1158,6 +1177,17 @@ input[type="button"]:focus {
     width: 523px;
     height: 376px;
   }
+  .proshop-design__visual {
+    top: auto;
+    right: auto;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 523px;
+    height: 376px;
+  }
   .syrian-design__visual {
     top: auto;
     right: auto;
@@ -1174,6 +1204,10 @@ input[type="button"]:focus {
     height: 425px;
   }
   .gmtcc-design__visual {
+    width: 392px;
+    height: 275px;
+  }
+  .proshop-design__visual {
     width: 392px;
     height: 275px;
   }
